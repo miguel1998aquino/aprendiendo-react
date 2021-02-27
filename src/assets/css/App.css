@@ -219,6 +219,19 @@ body {
 .btn-success {
   background: rgb(23, 150, 19);
 }
+.btn-danger {
+  background: rgb(241, 22, 7) !important;
+  color: white !important;
+  float: left;
+  margin-right: 20px;
+  border-radius: 5px;
+}
+.btn-warning {
+  background: rgb(245, 169, 6) !important;
+  color: white !important;
+  float: left;
+  border-radius: 5px;
+}
 .mid-form {
   width: 50%;
   margin: 0px auto;
