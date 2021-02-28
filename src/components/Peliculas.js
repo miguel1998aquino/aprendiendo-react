@@ -35,12 +35,12 @@ class Peliculas extends Component {
       favorita: {}
     })
   }
-  componentDidMount() {
-    // alert("ya se ha montado el componente")
-  }
-  componentWillUnmount() {
-    // alert("me voy a desmonatar")
-  }
+  // componentDidMount() {
+  //   // alert("ya se ha montado el componente")
+  // }
+  // componentWillUnmount() {
+  //   // alert("me voy a desmonatar")
+  // }
   render() {
     var pStyle = {
       background: 'green',

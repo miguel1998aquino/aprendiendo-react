@@ -83,7 +83,7 @@ body {
   color: #40c0e4;
 }
 
-.active{
+.active {
   border-bottom: 2px solid #3cb2d3;
 }
 
@@ -215,6 +215,12 @@ body {
   transition: 300ms all;
   border: none;
   cursor: pointer;
+  border-radius: 15px;
+}
+.thumb{
+  display: block;
+  width: 170px;
+  float: left
 }
 .btn-success {
   background: rgb(23, 150, 19);
@@ -246,7 +252,8 @@ body {
 }
 
 input[type="text"],
-textarea {
+textarea,
+input[type="file"] {
   width: 100%;
   height: 30px;
   border: 1px solid #ccc;
@@ -265,6 +272,9 @@ textarea {
   max-width: 100%;
   min-height: 150px;
   max-height: 300px;
+}
+input[type="input"] {
+  margin-top: 15px;
 }
 
 .radiobuttons {

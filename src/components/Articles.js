@@ -11,7 +11,7 @@ class Articles extends Component {
         articles: [],
         success: null
     }
-    componentWillMount() {
+    componentDidMount() {
         var home = this.props.home;
         var search = this.props.search;
         if(home==='true'){
@@ -65,7 +65,7 @@ class Articles extends Component {
         if (this.state.articles.length >= 1) {
             var lisArticle = this.state.articles.map((article) => {
                 return (
-                    <article className="article-item" id="article-template">
+                    <article key={article._id} className="article-item" id="article-template">
                         <div className="image-wrap">
                             {
                                 article.image !== null ?(
